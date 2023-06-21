@@ -1,148 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume</title>
-  <style>
-    /* CSS styles for the banner image */
-    .banner {
-      background-image: url('./banner.png');
-      background-size: cover;
-      background-position: center;
-      height: 300px; /* adjust the height as needed */
-    }
-     /* CSS styles for the footer */
-      .footer {background-color: #f4a6f4;
-      color: #0e0808;
-      padding: 20px;
-      text-align: center;
-    }
-     /* CSS styles for paragraph alignment */
-     .paragraphs {
-      text-align: justify;
-    }
-    /* CSS styles for the body layout */
-    .body-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin: 20px 0;
-    }
-
-    .left-column {
-      flex-basis: 70%;
-    }
-
-    .right-column {
-      flex-basis: 30%;
-      margin-left: 20px;
-    }
-    /* CSS styles for the education section */
-    .education {
-      margin-bottom: 5px;
-    }
-    .course {
-      font-weight: bold;
-      padding: 20 px;
-    }
-    .school {
-      font-style: italic;
-      
-    }
-    /* CSS styles for contact details */
-    .contact-details {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 20px 0;
-    }
-    .contact-details p {
-      margin: 0 10px;
-      padding: 0;
-      border-right: 1px solid #000;
-    }
-    .contact-details p:last-child {
-      border-right: none;
-    }
-        
-  </style>
+  <title>Agency</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div class="banner"></div>
 
-  <div class="contact-details">
-    <p>
-      Email: <a href="mailto:afefischer@gmail.com">afefischer@gmail.com</a>
-    </p>
-    <p>
-      Phone: <a href="tel:+1623061139">+1623061139</a>
-    </p>
-    <p>
-      LinkedIn: <a href="https://www.linkedin.com/in/mariafetaran/">linkedin.com/in/mariafetaran</a>
-    </p>
+<body>
+  <div class="main">
+    <img class="logo" src="./assets/images/codecanvass.png" alt="logo">
+    <h1>Weaving Code into Stunning Designs</h1>
+    <div class="left card"><img class="tile-image" src="./assets/images/vestrahorn-mountains-stokksnes-iceland.jpg" alt="hand and flower in water">
+      <h2 class="card-title">Beauty</h2>
+      <p class="card-text">At our core, we are dedicated to crafting stunning websites that 
+        cater to your unique requirements. Our approach involves close collaboration with you to 
+        conceptualize and bring to life an exceptional online presence for your business..</p>
+    </div>
+
+    <div class="right card"><img class="tile-image" src="./assets/images/coder.jpg" alt="metal structure">
+      <h2 class="card-title">Construction</h2>
+      <p>
+        Our team of professional developers constructs websites with the utmost rigor and modernity, ensuring 
+        top-notch quality. We build websites from scratch, utilizing HTML and CSS to deliver nothing but the finest 
+        results tailored specifically for you..</p>
+    </div>
+
   </div>
-      
- 
-  <h2>About Me</h2>
-  <div class="paragraphs">
-    <p>I am a new mom who is dedicated to pursuing my passion 
-       for learning. Despite the challenges of motherhood, 
-       I make the most of my free time, especially when my 
-       baby sleeps, to delve into the world of coding. 
-       I am highly motivated and hardworking, firmly believing 
-       that achieving anything you want is primarily a matter 
-      of mindset. I am committed to continuously expanding my 
-      skills and knowledge in the field of coding, leveraging 
-      my determination to overcome any obstacles that come my 
-      way. With a strong work ethic and a growth mindset, I am 
-      eager to contribute my abilities and drive to make a 
-      meaningful impact in the tech industry.
-    </p>
-  
-  <div class="education"></div>
-  <h2>Education</h2>
-    
-  <p><span class="course">Bachelor of Technology, Industrial Management major in Mechanical Technology</span></p>
-  <p class="school">University of Southern Mindanao-Kidapawan City campus</p>
-  
-  
-    
-  <h2>Relevant Courses</h2>
-    <ul>
-      <li>Data Analysis Professional Training</li>
-      <li>Google IT Support specialist</li>
-      <li>IBM Agile Explorer</li>
-      <li>Customer Analytics</li>
-    </ul>
-  <h2>Skills</h2>
-    <ul>
-      <li>Photoshop</li>
-      <li>Microsoft Office</li>
-      <li>Python for Data Analytics</li>
-      <li>Tableu</li>
-      <li>SQL</li>
-      <li>HTML</li>
-    </ul>
-  
-  <h2>Hobbies and Interest </h2>
-  <div class="paragraphs">
-    <ul>
-      <li><p><strong>Blogging about my Coding Journey:</strong>  As a new mom passionate about learning and coding, I enjoy sharing my experiences and insights through my personal blog. I document my journey of self-learning, discuss challenges I've overcome, and provide tips and resources for other aspiring developers.</p></li>
-      <li><p><strong> Learning through Online Courses and Tutorials:</strong> During my free time, I dedicate myself to expanding my web development skills through online courses and tutorials. Platforms like Udemy and Codecademy have been instrumental in my learning process, helping me explore new concepts and technologies.</p></li>
-      <li><p><strong>Commitment to Continuous Growth: </strong>  I am dedicated to continuous learning and growth in the field of web development. I consistently stay updated with the latest advancements, read industry blogs, watch tutorial videos, and follow influential developers on social media platforms. This allows me to sharpen my skills and stay at the forefront of the rapidly evolving web development landscape.</p></li>
-    </ul>
-    
-  
-  <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/MfFischer/html-portfolio"> HTML Projects</a></li>
-      <li><a href="https://github.com/MfFischer/Data-Analysis-projects"> Data Analysis Projects</a></li>
-    </ul>
-  
- 
-  <div class="footer">
-    <p><strong>© 2023 Maria Fe Fischer</strong></p>
-</footer>
+  <footer>
+    <div class="footer-box"></div>
+    <p class="name">CodeCanvass 2023</p>
+  </div>
+  </footer>
 </body>
+
 </html>
